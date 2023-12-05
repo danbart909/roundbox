@@ -13,21 +13,24 @@ export default function App() {
   return (
     <Col
       // width='100vw'
-      height='100vh'
-      backgroundColor='black'
+      // height='100vh'
+      backgroundColor='black' 
     >
       {/* <TopNav />
       <Sticky>
         <BottomNav />
       </Sticky> */}
-      <Navbar />
+
+      {/* <Navbar /> */}
+
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/faq' element={<FAQ />} />
         <Route path='/info' element={<Info />} />
       </Routes>
-      <Footer />
+
+      {/* <Footer /> */}
     </Col>
   );
 }
