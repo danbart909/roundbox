@@ -11,26 +11,26 @@ import Info from './pages/Info'
 
 export default function App() {
   return (
-    <Col
-      // width='100vw'
-      // height='100vh'
-      backgroundColor='black' 
-    >
-      {/* <TopNav />
-      <Sticky>
-        <BottomNav />
-      </Sticky> */}
-
-      {/* <Navbar /> */}
-
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/faq' element={<FAQ />} />
-        <Route path='/info' element={<Info />} />
-      </Routes>
-
-      {/* <Footer /> */}
-    </Col>
+      <Col
+        // width='100vw'
+        // height='100vh'
+        backgroundColor='black' 
+      >
+        {/* <TopNav />
+        <Sticky>
+          <BottomNav />
+        </Sticky> */}
+  
+        {/* <Navbar /> */}
+  
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/faq' element={<FAQ />} />
+          <Route path='/info' element={<Info />} />
+        </Routes>
+  
+        {/* <Footer /> */}
+      </Col>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import { Box, Button } from '@mui/material'
+import { Button } from '@mui/material'
 import { Row, Col } from '../components/helper'
 import titlepic from '../images/roundbox1.jpg'
 
@@ -17,17 +17,38 @@ export default function Home() {
     <Col
       // p='1vw'
       // gap='1vw'
+      sx={{ fontFamily: 'Bellefair'}}
     >
-      <Row
+
+      <Col
         m='1vw'
         p='2vw 1vw'
-        justifyContent='center'
+        alignItems='center'
         // fontSize='calc(24px + 6 * ((100vw - 335px) / 1265))'
         border='1px solid white'
-      >Website In Progress!</Row>
+        sx={{ fontFamily: 'Crimson Text' }}
+      >
+      
+        <Row
+          p='0 0 20px 0'
+        >Website In Progress! Testing fonts right now...</Row>
 
-      <Box
-        component='img'
+        <Row>Now Available on Etsy!</Row>
+
+        <Link
+          to='https://www.etsy.com/listing/1602435056/bullet-display-handgun-cartridge?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=pistol+cartridge+display&ref=sr_gallery-1-1&organic_search_click=1'
+          target='_blank'
+          rel="noopener noreferrer"
+          style={{
+            textDecoration: 'none',
+            color: 'white'
+          }}
+        >{`>>`} etsy.com/listing/1602435056 {`<<`}</Link>
+      
+      </Col>
+
+      <Row
+        // component='img'
         w='95vw'
         height='20vw'
         style={{
@@ -36,34 +57,52 @@ export default function Home() {
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat'
         }}
-        sx={{
+        // sx={{
           // height: 400,
           // width: '90%',
           // maxHeight: { xs: 233, md: 167 },
           // maxWidth: { xs: 350, md: 250 },
-        }}
+        // }}
         // src={`url(${titlepic})`}
       >
-      </Box>
+      </Row>
 
       <Row
         m='1vw'
         p='1vw 10vw'
         border='1px solid white'
         textAlign='center'
-      >The Roundbox is a display case of 25 popular pistol cartridges organized in ascending order of bullet diameter (not cartridge diameter). It makes a great educational tool for customers and is also a snazzy decoration for your home.</Row>
+      >The Roundbox is a display case of 25 popular pistol cartridges organized in ascending order of bullet diameter (not cartridge diameter). It makes a great educational tool for customers and is also an eye-catching decoration for your home.</Row>
       
-      <Col
-        m='1vw'
-        p='1vw'
-        border='1px solid white'
-      >
-        <Row
+      <Row>
+        <Col
+          m='1vw'
           p='1vw'
-          justifyContent='center'
-        >List of calibers included in Roundbox</Row>
-        {caliberList()}
-      </Col>
+          width='45%'
+          border='1px solid white'
+          sx={{ fontFamily: 'Balthazar' }}
+        >
+          <Row
+            p='1vw'
+            justifyContent='center'
+          >List of calibers displayed (from left to right)</Row>
+          {caliberList()}
+        </Col>
+
+        <Col
+          m='1vw'
+          p='1vw'
+          width='45%'
+          border='1px solid white'
+          sx={{ fontFamily: 'Linden Hill' }}
+        >
+          <Row
+            p='1vw'
+            justifyContent='center'
+          >Different kinds of Roundboxes are planned and many possibilities are being considered for the future. We are working on a Rifle Cartridge Display, a Shotgun Cartrdige Display, displays with exotic ammo, displays on different base wood, displays in different configurations and sort orders, displays encased in epoxy resin, and many other different variations are being explored.</Row>
+        </Col>
+      </Row>
+
     </Col>
   )
 }
