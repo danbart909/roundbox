@@ -17,7 +17,7 @@ export default function Home() {
     <Col
       // p='1vw'
       // gap='1vw'
-      sx={{ fontFamily: 'Bellefair'}}
+      sx={{ fontFamily: 'Balthazar'}}
     >
 
       <Col
@@ -26,24 +26,47 @@ export default function Home() {
         alignItems='center'
         // fontSize='calc(24px + 6 * ((100vw - 335px) / 1265))'
         border='1px solid white'
-        sx={{ fontFamily: 'Crimson Text' }}
+        // sx={{ fontFamily: 'Crimson Text' }}
       >
       
         <Row
           p='0 0 20px 0'
-        >Website In Progress! Testing fonts right now...</Row>
+          fontSize='15vw'
+        >ROUNDBOX</Row>
 
-        <Row>Now Available on Etsy!</Row>
+        <Row
+          backgroundColor='white'
+          border='1px solid white'
+          m='0 0 2vw 0'
+        >
+          <Link
+            to='/Purchase'
+            target='_blank'
+            rel="noopener noreferrer"
+            style={{
+              textDecoration: 'none',
+              color: 'black',
+              padding: '1vw'
+            }}
+          >{`>>`} Buy Here {`<<`}</Link>
+        </Row>
 
-        <Link
-          to='https://www.etsy.com/listing/1602435056/bullet-display-handgun-cartridge?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=pistol+cartridge+display&ref=sr_gallery-1-1&organic_search_click=1'
-          target='_blank'
-          rel="noopener noreferrer"
-          style={{
-            textDecoration: 'none',
-            color: 'white'
-          }}
-        >{`>>`} etsy.com/listing/1602435056 {`<<`}</Link>
+        <Row
+          backgroundColor='white'
+          border='1px solid white'
+          m='0 0 2vw 0'
+        >
+          <Link
+            to='https://www.etsy.com/listing/1602435056/bullet-display-handgun-cartridge'
+            target='_blank'
+            rel="noopener noreferrer"
+            style={{
+              textDecoration: 'none',
+              color: 'black',
+              padding: '1vw'
+            }}
+          >{`>>`} Buy on Etsy {`<<`}</Link>
+        </Row>
       
       </Col>
 
@@ -69,10 +92,10 @@ export default function Home() {
 
       <Row
         m='1vw'
-        p='1vw 10vw'
+        p='1vw 1vw'
         border='1px solid white'
         textAlign='center'
-      >The Roundbox is a display case of 25 popular pistol cartridges organized in ascending order of bullet diameter (not cartridge diameter). It makes a great educational tool for customers and is also an eye-catching decoration for your home.</Row>
+      >Roundbox is a display case of 25 popular pistol cartridges organized in ascending order of bullet diameter (not cartridge diameter). It makes a great educational tool for customers and is also an eye-catching decoration for your home.</Row>
       
       <Row>
         <Col
@@ -80,7 +103,7 @@ export default function Home() {
           p='1vw'
           width='45%'
           border='1px solid white'
-          sx={{ fontFamily: 'Balthazar' }}
+          // sx={{ fontFamily: 'Balthazar' }}
         >
           <Row
             p='1vw'
@@ -94,12 +117,12 @@ export default function Home() {
           p='1vw'
           width='45%'
           border='1px solid white'
-          sx={{ fontFamily: 'Linden Hill' }}
+          // sx={{ fontFamily: 'Linden Hill' }}
         >
           <Row
             p='1vw'
             justifyContent='center'
-          >Different kinds of Roundboxes are planned and many possibilities are being considered for the future. We are working on a Rifle Cartridge Display, a Shotgun Cartrdige Display, displays with exotic ammo, displays on different base wood, displays in different configurations and sort orders, displays encased in epoxy resin, and many other different variations are being explored.</Row>
+          >If you'd like a Roundbox different from the default one, send us a message on Etsy and we'll see what we can do. We can do things like sort the rounds for you differently or replace elements with something else like an image or other text.</Row>
         </Col>
       </Row>
 

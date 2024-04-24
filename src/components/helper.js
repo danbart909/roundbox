@@ -8,7 +8,7 @@ export const Row = (props) => {
   return <Box {...props}
     display='flex'
     flexDirection='row'
-    fontSize='calc(14px + 6 * ((100vw - 335px) / 1265))'
+    // fontSize='calc(20px + 6 * ((100vw - 335px) / 1265))'
     color='white'
   >{props.children}</Box>
 }
@@ -18,7 +18,8 @@ export const Col = (props) => {
     display='flex'
     flexDirection='column'
     color='white'
-    fontSize='calc(14px + 6 * ((100vw - 335px) / 1265))'
+    fontSize='calc(18px + 12 * ((100vw - 335px) / 1265))'
+    lineHeight={1.2}
   >{props.children}</Box>
 }
 

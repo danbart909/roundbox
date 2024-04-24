@@ -8,13 +8,14 @@ import Home from './pages/Home'
 import About from './pages/About'
 import FAQ from './pages/FAQ'
 import Info from './pages/Info'
+import Purchase from './pages/Purchase'
 
 export default function App() {
   return (
       <Col
         // width='100vw'
-        // height='100vh'
-        backgroundColor='black' 
+        minHeight='100vh'
+        backgroundColor='black'
       >
         {/* <TopNav />
         <Sticky>
@@ -25,9 +26,10 @@ export default function App() {
   
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/faq' element={<FAQ />} />
-          <Route path='/info' element={<Info />} />
+          <Route path='about' element={<About />} />
+          <Route path='faq' element={<FAQ />} />
+          <Route path='info' element={<Info />} />
+          <Route path='purchase' element={<Purchase />} />
         </Routes>
   
         {/* <Footer /> */}
