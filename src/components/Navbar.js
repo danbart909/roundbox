@@ -19,10 +19,10 @@ export default function Navbar() {
         <Row>Home</Row>
       </Link>
       <Link
-        to='/info'
+        to='/purchase'
         // style={{ textDecoration: 'none' }}
       >
-        <Row>Product Info</Row>
+        <Row>Purchase</Row>
       </Link>
       <Link
         to='/faq'
