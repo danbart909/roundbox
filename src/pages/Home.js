@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import { Button } from '@mui/material'
 import Alert from '@mui/material/Alert'
 import { Row, Col } from '../components/helper'
-import titlepic from '../images/roundbox1.jpg'
+import titlepic from '../pics/roundbox1.jpg'
 import ShopifyBuy from '@shopify/buy-button-js'
 
 export default function Home() {
@@ -17,12 +17,6 @@ export default function Home() {
     return html
   }
 
-  let client = ShopifyBuy.buildClient({
-    domain: 'a3850f-b6.myshopify.com',
-    storefrontAccessToken: ''
-  })
-
-
   return (
     <Col
       // p='1vw'
@@ -35,7 +29,7 @@ export default function Home() {
         p='2vw 1vw'
         alignItems='center'
         // fontSize='calc(24px + 6 * ((100vw - 335px) / 1265))'
-        border='1px solid white'
+        // border='1px solid white'
         // sx={{ fontFamily: 'Crimson Text' }}
       >
       
@@ -48,12 +42,14 @@ export default function Home() {
         <Col>
           <Row
             backgroundColor='white'
-            border='1px solid white'
+            // border='1px solid white'
             borderRadius='10px'
             justifyContent='center'
           >
             <Link
-              to='https://a3850f-b6.myshopify.com'
+              to='https://a3850f-b6.myshopify.com/'
+              // to='https://a3850f-b6.myshopify.com/cart/49073978048826:1?channel=buy_button'
+              // to='https://a3850f-b6.myshopify.com/cart/49073978081594:1?channel=buy_button'
               target='_blank'
               rel="noopener noreferrer"
               style={{
@@ -125,7 +121,7 @@ export default function Home() {
       <Row
         m='1vw 0'
         p='1vw 1vw'
-        border='1px solid white'
+        // border='1px solid white'
         textAlign='center'
       >Roundbox is a display case of 25 popular pistol cartridges organized in ascending order of bullet diameter (not cartridge diameter). It makes a great educational tool for customers and is also an eye-catching decoration for your home.</Row>
 
@@ -136,7 +132,7 @@ export default function Home() {
       <Row
         m='1vw 0'
         p='1vw 1vw'
-        border='1px solid white'
+        // border='1px solid white'
         textAlign='center'
       >There will be slight variations in the ammo from Roundbox to Roundbox, as we use whatever rounds are available. For instance, some rounds may be nickle-plated, some bullet types may be hollow-point, and some rounds may be very old. All rounds are live, but tightly secured.</Row>
 
@@ -145,7 +141,7 @@ export default function Home() {
           m='1vw 0'
           p='1vw'
           width='50%'
-          border='1px solid white'
+          // border='1px solid white'
           // sx={{ fontFamily: 'Balthazar' }}
         >
           <Row
@@ -159,7 +155,7 @@ export default function Home() {
           m='1vw 0'
           p='1vw'
           width='50%'
-          border='1px solid white'
+          // border='1px solid white'
           // sx={{ fontFamily: 'Linden Hill' }}
         >
           <Row
