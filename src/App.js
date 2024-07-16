@@ -22,7 +22,7 @@ export default function App() {
           <BottomNav />
         </Sticky> */}
   
-        <Navbar />
+        {/* <Navbar /> */}
   
         <Routes>
           <Route path='/' element={<Home />} />

@@ -4,6 +4,7 @@ import { Button } from '@mui/material'
 import Alert from '@mui/material/Alert'
 import { Row, Col } from '../components/helper'
 import titlepic from '../images/roundbox1.jpg'
+import ShopifyBuy from '@shopify/buy-button-js'
 
 export default function Home() {
 
@@ -15,6 +16,12 @@ export default function Home() {
     list.forEach(x => html.push(<Row>{x}</Row>) )
     return html
   }
+
+  let client = ShopifyBuy.buildClient({
+    domain: 'a3850f-b6.myshopify.com',
+    storefrontAccessToken: ''
+  })
+
 
   return (
     <Col
@@ -46,24 +53,25 @@ export default function Home() {
             justifyContent='center'
           >
             <Link
-              to='/purchase'
-              // target='_blank'
+              to='https://a3850f-b6.myshopify.com'
+              target='_blank'
               rel="noopener noreferrer"
               style={{
                 textDecoration: 'none',
                 color: 'black',
                 padding: '1vw',
               }}
-            >{`>>`} Store coming soon! {`<<`}</Link>
+            >{`>>`} Click to Buy! {`<<`}</Link>
+            
           </Row>
 
-          <Row
+          {/* <Row
             textAlign='center'
             m='5vh 0 0 0'
             justifyContent='center'
           >
             If you've found this website and want to buy a Roundbox, please email us at roundbox.prettygoodinc@gmail.com.
-          </Row>
+          </Row> */}
 
           <Row
             textAlign='center'

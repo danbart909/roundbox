@@ -13,18 +13,20 @@ export default function Purchase() {
         m='20px 0 0 0'
         justifyContent='center'
         border='1px white solid'
+        fontSize='4vw'
       >Purchase Page</Row>
 
       <Col
         w='80%'
         m='0 5%'
         p='5% 0 0 0'
-        // justifyContent='center'
         border='1px white solid'
       >
         <Row
-          p='0 0 0 5%'
+          // p='0 0 0 5%'
           border='1px white solid'
+          justifyContent='center'
+          fontSize='2.5vw'
         >Roundbox</Row>
         <Col
           m='2.5%'
@@ -52,7 +54,7 @@ export default function Purchase() {
             p='2%'
             border='1px white solid'
           >
-            Description of Roundbox
+            Roundbox is a display case of 25 popular pistol cartridges organized in ascending order of bullet diameter (not cartridge diameter). It makes a great educational tool for customers and is also an eye-catching decoration for your home.
           </Row>
         </Col>
       </Col>
@@ -65,8 +67,10 @@ export default function Purchase() {
         border='1px white solid'
       >
         <Row
-          p='0 0 0 5%'
+          // p='0 0 0 5%'
           border='1px white solid'
+          justifyContent='center'
+          fontSize='2.5vw'
         >Roundbox with Stand</Row>
         <Col
           m='2.5%'
