@@ -13,7 +13,7 @@ import Purchase from './pages/Purchase'
 export default function App() {
   return (
       <Col
-        // width='100vw'
+        width='100%'
         minHeight='100vh'
         backgroundColor='black'
       >
