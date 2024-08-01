@@ -21,7 +21,7 @@ return (
     // width='93%'
     alignItems='center'
     // border='1px solid white'
-    margin='2vh 8vw 0 .5vw'
+    // margin='2vh 8vw 0 .5vw'
   >
 
     <Row
@@ -79,7 +79,7 @@ return (
 
     <Row
       // w='100vw'
-      // margin='0 10vw 0 0'
+      margin='0 2vw'
       // border='1px solid white'
     >
       <Row
@@ -105,7 +105,7 @@ return (
     </Row>
 
     <Row
-      m='5vh 0 0 0'
+      m='5vh 2vw'
       // margin='2vh 7vw 0 .5vw'
     >
       <Row
@@ -163,7 +163,8 @@ return (
           p='.5vw'
           border='1px solid white'
         >
-          roundbox.prettygoodinc
+          roundbox.
+          prettygoodinc
           @gmail.com
         </Row>
 
