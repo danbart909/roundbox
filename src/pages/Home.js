@@ -47,7 +47,8 @@ return (
 
     <Row
       backgroundColor='white'
-      m='10vh 0'
+      m='6vh 0'
+      p='1vw'
       borderRadius='10px'
       justifyContent='center'
       // border='1px solid white'
@@ -64,7 +65,7 @@ return (
           padding: '1vw',
         }}
       >
-        {`>>`} Click to Buy! {`<<`}
+        {`>>`} Link to Store {`<<`}
       </Link>
     </Row>
 
@@ -72,9 +73,14 @@ return (
       textAlign='center'
       justifyContent='center'
       m='0 0 7vh 0'
+      p='.5vw'
+      backgroundColor='yellow'
+      sx={{
+        color: 'black'
+      }}
       // border='1px solid white'
     >
-      Please be patient as we set up our website.
+      Please be patient, website is under construction
     </Row>
 
     <Row
@@ -126,6 +132,13 @@ return (
       />
     </Row>
 
+    <Col
+      m='2vh 0'
+    >
+      {/* <Row>Check out our short video from Youtube:</Row> */}
+      <Row><iframe width="467" height="830" src="https://www.youtube.com/embed/fuN-K80VuLU" title="Roundbox" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></Row>
+    </Col>
+
     <Row
       width='80%'
       m='5vh 0 0 0'
@@ -154,14 +167,14 @@ return (
       >
         <Row
           p='.5vw'
-          border='1px solid white'
+          // border='1px solid white'
           // justifyContent='center'
         // >If you'd like a Roundbox different from the default one, send us a message on Etsy and we'll see what we can do. We can do things like sort the rounds for you differently or replace elements with something else like an image or other text.</Row>
         >Email:</Row>
 
         <Row
           p='.5vw'
-          border='1px solid white'
+          // border='1px solid white'
         >
           roundbox.
           prettygoodinc
