@@ -73,14 +73,14 @@ return (
       textAlign='center'
       justifyContent='center'
       m='0 0 7vh 0'
-      p='.5vw'
+      p='.5vw 2vw'
       backgroundColor='yellow'
       sx={{
         color: 'black'
       }}
       // border='1px solid white'
     >
-      Please be patient, website is under construction
+      This website is under construction. Thank you for your understanding.
     </Row>
 
     <Row
@@ -135,8 +135,24 @@ return (
     <Col
       m='2vh 0'
     >
-      {/* <Row>Check out our short video from Youtube:</Row> */}
-      <Row><iframe width="467" height="830" src="https://www.youtube.com/embed/fuN-K80VuLU" title="Roundbox" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></Row>
+      <Row
+        m='0 0 5vw 0'
+      >Check out our short video on Youtube:</Row>
+      {/* <Row><iframe width="467" height="830" src="https://www.youtube.com/embed/fuN-K80VuLU" title="Roundbox" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></Row> */}
+      <Row
+        component='iframe'
+        // justifySelf='center'
+        // width='80vw'
+        width='auto'
+        height='80vh'
+        // height='auto'
+        src="https://www.youtube.com/embed/fuN-K80VuLU"
+        title="Roundbox"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      />
     </Col>
 
     <Row
