@@ -34,7 +34,7 @@ return (
     </Row>
 
     <Row
-      width='84vw'
+      width='90vw'
       height='21vw'
       style={{
         backgroundImage: `url(${titlepic})`,
@@ -80,7 +80,7 @@ return (
       }}
       // border='1px solid white'
     >
-      This website is under construction. Thank you for your understanding.
+      This website is under construction. Thank you for your patience.
     </Row>
 
     <Row
@@ -152,7 +152,7 @@ return (
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
-      />
+      /> 
     </Col>
 
     <Row
@@ -195,6 +195,21 @@ return (
           roundbox.
           prettygoodinc
           @gmail.com
+        </Row>
+
+        <Row
+          p='.5vw'
+          m='5vw 0 0 0'
+          // border='1px solid white'
+        >
+          Return Policy:
+        </Row>
+
+        <Row
+          p='.5vw'
+          // border='1px solid white'
+        >
+          If something isn't right with your Roundbox, let us know by sending us an email along with a picture, and we'll do everything we can to make it right.
         </Row>
 
         {/* <Row

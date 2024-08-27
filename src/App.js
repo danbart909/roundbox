@@ -1,6 +1,7 @@
 import React, { Box } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { Sticky } from 'semantic-ui-react'
+import { Helmet } from "react-helmet"
 import { Row, Col } from './components/helper'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -23,6 +24,12 @@ export default function App() {
         </Sticky> */}
   
         {/* <Navbar /> */}
+
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Roundbox</title>
+          <link rel="canonical" href="https://roundbox.prettygoodinc.com" />
+        </Helmet>
   
         <Routes>
           <Route path='/' element={<Home />} />
