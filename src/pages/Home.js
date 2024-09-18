@@ -118,7 +118,7 @@ return (
         p='1vw 1vw'
         textAlign='center'
         // border='1px solid white'
-      >There will be slight variations in the ammo from Roundbox to Roundbox, as we use whatever rounds are available. For instance, some rounds may be nickle-plated, some bullet types may be hollow-point, and some rounds may be very old. All rounds are live, but tightly secured.</Row>
+      >There will be slight variations in the ammo from Roundbox to Roundbox, as we use whatever rounds are available. For instance, some rounds may be nickle-plated, some bullet types may be hollow-point, and some rounds may be very old.</Row>
       <Row
         width='100%'
         height='auto'
