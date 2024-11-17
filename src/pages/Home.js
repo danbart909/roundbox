@@ -54,7 +54,8 @@ return (
       // border='1px solid white'
     >
       <Link
-        to='https://a3850f-b6.myshopify.com/'
+        to='https://www.etsy.com/shop/WoodArtisan909'
+        // to='https://a3850f-b6.myshopify.com/'
         // to='https://a3850f-b6.myshopify.com/cart/49073978048826:1?channel=buy_button'
         // to='https://a3850f-b6.myshopify.com/cart/49073978081594:1?channel=buy_button'
         target='_blank'
